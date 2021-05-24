@@ -5,18 +5,18 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: Build_x86_64
+name: Build_x86_64_zjz
 
 on: 
   release:
     types: [published]
 
-  #push:
-  #  branches: 
-  #    - master
+  push:
+    branches: 
+      - master
 
-  #schedule:
-  #  - cron: 0 8 * * 5
+  schedule:
+    - cron: 0 8 * * 5
   
   #watch:
   #  types: [started]
